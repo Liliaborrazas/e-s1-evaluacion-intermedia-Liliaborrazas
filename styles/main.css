@@ -1,13 +1,19 @@
 /* #4a4a4a ﴾Texto del menú﴿
 #3CDBC0 ﴾color de fondo de la página﴿
 #FFFFFF ﴾Color de texto de "Creando diversidad digital"﴿ */
+.container--heder{
+    display: block;
 
+}
 a{
     text-decoration: none;
     color: black;
-    line-height: 45px;
+    line-height: 60px;
     
 }
+
+
+
 .container-link {
     color: #ffffff;
     margin: 0;
@@ -22,4 +28,19 @@ a{
 
 .container{
     background: #3CDBC0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+}
+
+@media all and (max-width:320px){
+   h1{
+       font-size: 30px;
+   }
+
+
+
 }
