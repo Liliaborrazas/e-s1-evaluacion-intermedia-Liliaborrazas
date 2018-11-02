@@ -1,0 +1,25 @@
+/* #4a4a4a ﴾Texto del menú﴿
+#3CDBC0 ﴾color de fondo de la página﴿
+#FFFFFF ﴾Color de texto de "Creando diversidad digital"﴿ */
+
+a{
+    text-decoration: none;
+    color: black;
+    line-height: 45px;
+    
+}
+.container-link {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;     
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container{
+    background: #3CDBC0;
+}
