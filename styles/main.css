@@ -57,9 +57,10 @@ a{
 
 }
 
-@media all and (max-width:320px){
+@media all and (min-width:320px){
    h1{
        font-size: 30px;
+       background: red;
    }
 
 
