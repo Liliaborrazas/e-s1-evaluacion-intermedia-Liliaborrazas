@@ -5,11 +5,11 @@ body{
     margin: 0;
 }
 
-.container--title{
+/* .container--title{
     background: palevioletred;
     height: 100px;
     width: 120px;  
-}
+} */
 .container--heder{
     background-color: white;
     position: fixed;
@@ -39,11 +39,25 @@ a{
 
 
 .container--section{
-    background: #3CDBC0;
-    color: white;
-    font-family: 'Rubik', sans-serif;
+    background: #3CDBC0; 
     height: 100vh; 
     justify-items: center;
+}
+.container--title{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 120px; 
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.title{
+    color: white;
+    width: 20px;
+
 }
 
 @media all and (max-width:320px){
